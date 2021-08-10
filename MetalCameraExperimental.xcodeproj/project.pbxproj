@@ -7,28 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B90FA41026C091D000FB3331 /* MetalShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = B90FA40F26C091D000FB3331 /* MetalShaders.metal */; };
 		B95AD53926C08BF900C02A9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95AD53826C08BF900C02A9C /* AppDelegate.m */; };
 		B95AD53C26C08BF900C02A9C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95AD53B26C08BF900C02A9C /* SceneDelegate.m */; };
-		B95AD53F26C08BF900C02A9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95AD53E26C08BF900C02A9C /* ViewController.m */; };
+		B95AD53F26C08BF900C02A9C /* MetalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95AD53E26C08BF900C02A9C /* MetalViewController.m */; };
 		B95AD54226C08BF900C02A9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95AD54026C08BF900C02A9C /* Main.storyboard */; };
 		B95AD54426C08BFA00C02A9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95AD54326C08BFA00C02A9C /* Assets.xcassets */; };
 		B95AD54726C08BFA00C02A9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95AD54526C08BFA00C02A9C /* LaunchScreen.storyboard */; };
 		B95AD54A26C08BFA00C02A9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95AD54926C08BFA00C02A9C /* main.m */; };
+		B95AD55226C08E9000C02A9C /* MetalRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B95AD55126C08E9000C02A9C /* MetalRenderer.m */; };
+		B95AD55526C08F3E00C02A9C /* VideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B95AD55426C08F3E00C02A9C /* VideoCamera.m */; };
+		B98FCBB726C0CA46004D9C42 /* GlobalDispatch.c in Sources */ = {isa = PBXBuildFile; fileRef = B98FCBB526C0CA46004D9C42 /* GlobalDispatch.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B90FA40E26C090E700FB3331 /* MetalShaderTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalShaderTypes.h; sourceTree = "<group>"; };
+		B90FA40F26C091D000FB3331 /* MetalShaders.metal */ = {isa = PBXFileReference; explicitFileType = sourcecode.metal; path = MetalShaders.metal; sourceTree = "<group>"; wrapsLines = 0; };
 		B95AD53426C08BF900C02A9C /* MetalCameraExperimental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalCameraExperimental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95AD53726C08BF900C02A9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B95AD53826C08BF900C02A9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B95AD53A26C08BF900C02A9C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		B95AD53B26C08BF900C02A9C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		B95AD53D26C08BF900C02A9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B95AD53E26C08BF900C02A9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B95AD53D26C08BF900C02A9C /* MetalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalViewController.h; sourceTree = "<group>"; };
+		B95AD53E26C08BF900C02A9C /* MetalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalViewController.m; sourceTree = "<group>"; };
 		B95AD54126C08BF900C02A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B95AD54326C08BFA00C02A9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B95AD54626C08BFA00C02A9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B95AD54826C08BFA00C02A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B95AD54926C08BFA00C02A9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B95AD55026C08E9000C02A9C /* MetalRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalRenderer.h; sourceTree = "<group>"; };
+		B95AD55126C08E9000C02A9C /* MetalRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalRenderer.m; sourceTree = "<group>"; };
+		B95AD55326C08F3E00C02A9C /* VideoCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCamera.h; sourceTree = "<group>"; wrapsLines = 0; };
+		B95AD55426C08F3E00C02A9C /* VideoCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCamera.m; sourceTree = "<group>"; };
+		B98FCBB526C0CA46004D9C42 /* GlobalDispatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GlobalDispatch.c; sourceTree = "<group>"; };
+		B98FCBB626C0CA46004D9C42 /* GlobalDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDispatch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +73,20 @@
 		B95AD53626C08BF900C02A9C /* MetalCameraExperimental */ = {
 			isa = PBXGroup;
 			children = (
+				B98FCBB626C0CA46004D9C42 /* GlobalDispatch.h */,
+				B98FCBB526C0CA46004D9C42 /* GlobalDispatch.c */,
+				B90FA40E26C090E700FB3331 /* MetalShaderTypes.h */,
+				B90FA40F26C091D000FB3331 /* MetalShaders.metal */,
 				B95AD53726C08BF900C02A9C /* AppDelegate.h */,
 				B95AD53826C08BF900C02A9C /* AppDelegate.m */,
 				B95AD53A26C08BF900C02A9C /* SceneDelegate.h */,
 				B95AD53B26C08BF900C02A9C /* SceneDelegate.m */,
-				B95AD53D26C08BF900C02A9C /* ViewController.h */,
-				B95AD53E26C08BF900C02A9C /* ViewController.m */,
+				B95AD53D26C08BF900C02A9C /* MetalViewController.h */,
+				B95AD53E26C08BF900C02A9C /* MetalViewController.m */,
+				B95AD55026C08E9000C02A9C /* MetalRenderer.h */,
+				B95AD55126C08E9000C02A9C /* MetalRenderer.m */,
+				B95AD55326C08F3E00C02A9C /* VideoCamera.h */,
+				B95AD55426C08F3E00C02A9C /* VideoCamera.m */,
 				B95AD54026C08BF900C02A9C /* Main.storyboard */,
 				B95AD54326C08BFA00C02A9C /* Assets.xcassets */,
 				B95AD54526C08BFA00C02A9C /* LaunchScreen.storyboard */,
@@ -146,7 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B95AD53F26C08BF900C02A9C /* ViewController.m in Sources */,
+				B95AD55526C08F3E00C02A9C /* VideoCamera.m in Sources */,
+				B95AD55226C08E9000C02A9C /* MetalRenderer.m in Sources */,
+				B98FCBB726C0CA46004D9C42 /* GlobalDispatch.c in Sources */,
+				B90FA41026C091D000FB3331 /* MetalShaders.metal in Sources */,
+				B95AD53F26C08BF900C02A9C /* MetalViewController.m in Sources */,
 				B95AD53926C08BF900C02A9C /* AppDelegate.m in Sources */,
 				B95AD54A26C08BFA00C02A9C /* main.m in Sources */,
 				B95AD53C26C08BF900C02A9C /* SceneDelegate.m in Sources */,
